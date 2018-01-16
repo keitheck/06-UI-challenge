@@ -1,0 +1,268 @@
+
+body {
+    width: 90%;
+    margin: 20px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content {
+    width:480px;
+    margin: 0 auto;
+}
+
+header {
+    width:inherit;
+}
+
+main {
+    width:inherit;
+}
+
+p {
+    text-align: center;
+    /* font-size: 5vw; */
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 10px #333;
+}
+
+.div_a p {
+    padding-top: 15px;
+}
+
+.div_a {
+    background-color: rgb(154, 136, 136);
+    width: 100%;
+    height: 75px;
+}
+
+.div_b {
+    background-color: rgb(154, 142, 136);
+    width: 100%;
+    height: 150px;
+}
+
+.div_b p {
+    padding-top: 45px;
+}
+
+.div_c {
+    background-color: rgb(154, 147, 136);
+    width: 100%;
+    height: 125px;
+}
+
+.div_c p {
+    padding-top: 35px;
+}
+
+.div_d {
+    background-color: rgb(150, 154, 136);
+    width: 100%;
+    height: 125px;
+}
+
+.div_d p {
+    padding-top: 35px;
+}
+
+.div_e {
+    background-color: rgb(136, 154, 148);
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_e p {
+    padding-top: 100px;
+}
+
+.div_f {
+    background-color: rgb(136, 142, 154);
+    width: 50%;
+    height: 250px;
+    /* display: inline; */
+    float: left;
+}
+
+.div_f p {
+    padding-top: 100px;
+}
+
+
+.div_g {
+    clear: both;
+    background-color: rgb(145, 136, 154);
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_g p {
+    padding-top: 100px;
+}
+
+.div_h {
+    background-color: rgb(154, 136, 148);
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.div_h p {
+    padding-top: 100px;
+}
+
+footer {
+    width:inherit;
+}
+
+.div_footer {
+    clear: both;
+    background-color: rgb(154, 136, 136);
+    width: 100%;
+    height: 80px;
+}
+
+.div_footer p {
+    padding-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        width:100%;
+        margin: 0 auto;
+    }
+
+    header {
+        width:100%;
+    }
+    
+    main {
+        width:100%;
+    }
+
+    footer {
+        width:100%;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        width: 100%;
+        margin: 20px auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .content {
+        width:960px;
+        margin: 0 auto;
+    }
+
+    main {
+        width:960px;
+    }
+
+    .div_a p {
+        padding-top: 15px;
+    }
+    
+    .div_a {
+        background-color: rgb(154, 136, 136);
+        width: 960px;
+        height: 100px;
+    }
+
+    .div_b {
+        /* position: relative; */
+        float:left;
+        background-color: rgb(154, 142, 136);
+        width: 200px;
+        height: 600px;
+    }
+    
+    .div_b p {
+        padding-top: 290px;
+    }
+
+    .div_c {
+        float: left;
+        background-color: rgb(154, 147, 136);
+        width: 380px;
+        height: 200px;
+    }
+    
+    .div_c p {
+        padding-top: 35px;
+    }
+    
+    .div_d {
+        float: right;
+        background-color: rgb(150, 154, 136);
+        width: 380px;
+        height: 200px;
+    }
+    
+    .div_d p {
+        padding-top: 35px;
+    }
+
+    .div_e {
+        background-color: rgb(136, 154, 148);
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+    
+    .div_e p {
+        padding-top: 100px;
+    }
+    
+    .div_f {
+        background-color: rgb(136, 142, 154);
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+    
+    .div_f p {
+        padding-top: 100px;
+    }
+
+    .div_g {
+        clear: none;
+        background-color: rgb(145, 136, 154);
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+    
+    .div_g p {
+        padding-top: 100px;
+    }
+    
+    .div_h {
+        background-color: rgb(154, 136, 148);
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+    
+    .div_h p {
+        padding-top: 100px;
+    }
+
+    .div_footer {
+        clear: none;
+        background-color: rgb(154, 136, 136);
+        width: 760px;
+        height: 150px;
+        float: right;
+    }
+    
+    .div_footer p {
+        padding-top: 15px;
+    }
+    
+
+}   
